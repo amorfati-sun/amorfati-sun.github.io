@@ -1,0 +1,45 @@
+# Site settings
+name: amor fati
+title: amor fati | 
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://amorfati-sun.github.io/
+baseurl: ''
+email: amorfati.sun@gmail.com
+cover: https://amorfati-sun.github.io/img/og.png
+logo: https://amorfati-sun.github.io/img/emojis/spray.png
+resume: https://amorfati-sun.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:amorfati.sun@gmail.com
+  - title: twitter
+    url: https://twitter.com/amorfati_sun
+  - title: instagram
+    url: https://instagram.com/amorfati_sun
+  - title: codepen
+    url: http://codepen.io/amorfati_sun
+  - title: github
+    url: https://github.com/amorfati-sun
+  - title: linkedin
+    url: https://www.linkedin.com/in/amorfati-sun
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
